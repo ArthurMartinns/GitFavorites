@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitFav</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="/js/main.js" type="module" defer></script>
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <img src="assets/Gitfav.png" alt="">
+      <div class="search">
+        <input type="text" placeholder="Digite o username que deseja favoritar">
+        <button>Favoritar</button>
+      </div>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <th>Usuários</th>
+          <th>Repositórios</th>
+          <th>Seguidores</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="user">
+            <img src="https://github.com/ArthurMartinns.png" alt="Imagem de arthurmartins">
+            <a href="https://github.com/ArthurMartinns" target="_blank">
+              <p>Arthur Martins</p>
+              <span>arthurmartins</span>
+            </a>
+          </td>
+          <td class="repositories">
+            1
+          </td>
+          <td class="followers">
+            1
+          </td>
+          <td>
+            <button class="remove">Remover</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
